@@ -1,0 +1,32 @@
+@use "./vars" as *;
+
+%btn {
+    padding: 18px 27px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: $color_main;
+    border-radius: 100px;
+    background: $color_add_pink;
+    border: 1px solid transparent;
+}
+
+%btn-answer {
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: $color_main;
+    border-radius: 100px;
+    background: $color_bg_add;
+    border: 1px solid transparent;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+       background: #66aee9; 
+    }
+}
